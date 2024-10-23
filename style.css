@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header nav li{
+    display: inline;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand img{
+    height: 24px;
+}
+
+.brand li{
+    display: inline;
+}
+
+section .container{
+    display: flex;
+}
